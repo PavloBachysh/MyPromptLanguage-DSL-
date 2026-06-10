@@ -1,0 +1,61 @@
+PromptConfig:
+    rules*=ConfigRule
+;
+
+ConfigRule:
+    ModelRule | TemperatureRule | TopPRule | MaxTokenRule | PresencePenaltyRule | FrequencyPenaltyRule | ReasoningEffortRule | MessagesRule
+;
+
+ModelRule:
+    'model' '=' model=MODELS
+;
+
+MODELS:
+    'gpt-4o' | 'gpt-4-turbo'
+;
+
+MessagesRule:
+    'messages' '{' messages+=MESSAGE[','] '}'
+;
+
+MESSAGE:
+    '{' 
+    'role' ':' role=ROLES ','
+    'content' ':' content=STRING
+    '}'
+    |
+    '('role=ROLES')' (':' | '-')? content=STRING
+;
+
+ROLES:
+    'system' | 'user' | 'assistant'
+;
+
+TemperatureRule:
+    'temperature' '=' temperature=FLOAT
+;
+
+TopPRule:
+    'top_p' '=' top_p=FLOAT
+;
+
+MaxTokenRule:
+    'max_completion_tokens' '=' max_completion_tokens=INT
+;
+
+PresencePenaltyRule:
+    'presence_penalty' '=' presence_penalty=FLOAT
+;
+
+FrequencyPenaltyRule:
+    'frequency_penalty' '=' frequency_penalty=FLOAT
+;
+
+ReasoningEffortRule:
+    'reasoning_effort' '=' reasoning_effort=EFFORT
+;
+
+EFFORT:
+    'low' | 'medium' | 'high'
+;
+

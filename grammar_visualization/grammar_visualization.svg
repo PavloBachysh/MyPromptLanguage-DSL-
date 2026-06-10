@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1300pt" height="371pt" viewBox="0.00 0.00 1300.00 371.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 367)">
+<title>textX</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-367 1295.99,-367 1295.99,4 -4,4"/>
+<!-- 2176792283760 -->
+<g id="node1" class="node">
+<title>2176792283760</title>
+<polygon fill="aliceblue" stroke="black" points="497.91,-295 497.91,-344.6 594.03,-344.6 594.03,-295 497.91,-295"/>
+<text xml:space="preserve" text-anchor="middle" x="545.97" y="-328" font-family="Times,serif" font-size="14.00">PromptConfig</text>
+<polyline fill="none" stroke="black" points="497.91,-319.8 594.03,-319.8"/>
+<text xml:space="preserve" text-anchor="middle" x="545.97" y="-303.2" font-family="Times,serif" font-size="14.00"> </text>
+</g>
+<!-- 2176792583904 -->
+<g id="node2" class="node">
+<title>2176792583904</title>
+<polygon fill="aliceblue" stroke="black" points="501.81,-190.5 501.81,-240.1 590.14,-240.1 590.14,-190.5 501.81,-190.5"/>
+<text xml:space="preserve" text-anchor="middle" x="545.97" y="-223.5" font-family="Times,serif" font-size="14.00">*ConfigRule</text>
+<polyline fill="none" stroke="black" points="501.81,-215.3 590.14,-215.3"/>
+<text xml:space="preserve" text-anchor="middle" x="545.97" y="-198.7" font-family="Times,serif" font-size="14.00"> </text>
+</g>
+<!-- 2176792283760&#45;&gt;2176792583904 -->
+<g id="edge1" class="edge">
+<title>2176792283760-&gt;2176792583904</title>
+<path fill="none" stroke="black" d="M545.97,-281.46C545.97,-271.72 545.97,-261.27 545.97,-251.64"/>
+<polygon fill="black" stroke="black" points="545.97,-281.61 549.97,-287.61 545.97,-293.61 541.97,-287.61 545.97,-281.61"/>
+<polygon fill="black" stroke="black" points="549.47,-251.93 545.97,-241.93 542.47,-251.93 549.47,-251.93"/>
+<text xml:space="preserve" text-anchor="middle" x="520.11" y="-244.62" font-family="Times,serif" font-size="14.00">rules 0..*</text>
+</g>
+<!-- 2176792583088 -->
+<g id="node3" class="node">
+<title>2176792583088</title>
+<polygon fill="aliceblue" stroke="black" points="0,-103.9 0,-153.5 115.94,-153.5 115.94,-103.9 0,-103.9"/>
+<text xml:space="preserve" text-anchor="middle" x="57.97" y="-136.9" font-family="Times,serif" font-size="14.00">ModelRule</text>
+<polyline fill="none" stroke="black" points="0,-128.7 115.94,-128.7"/>
+<text xml:space="preserve" text-anchor="start" x="8" y="-112.1" font-family="Times,serif" font-size="14.00">model: MODELS</text>
+</g>
+<!-- 2176792583904&#45;&gt;2176792583088 -->
+<g id="edge2" class="edge">
+<title>2176792583904-&gt;2176792583088</title>
+<path fill="none" stroke="black" d="M489.98,-209.75C409,-202.39 254.86,-185.4 126.97,-154 123.39,-153.12 119.74,-152.13 116.08,-151.06"/>
+<polygon fill="none" stroke="black" points="489.61,-213.23 499.88,-210.64 490.23,-206.26 489.61,-213.23"/>
+</g>
+<!-- 2176792582608 -->
+<g id="node4" class="node">
+<title>2176792582608</title>
+<polygon fill="aliceblue" stroke="black" points="137.53,-103.9 137.53,-153.5 234.41,-153.5 234.41,-103.9 137.53,-103.9"/>
+<text xml:space="preserve" text-anchor="middle" x="185.97" y="-136.9" font-family="Times,serif" font-size="14.00">MessagesRule</text>
+<polyline fill="none" stroke="black" points="137.53,-128.7 234.41,-128.7"/>
+<text xml:space="preserve" text-anchor="middle" x="185.97" y="-112.1" font-family="Times,serif" font-size="14.00"> </text>
+</g>
+<!-- 2176792583904&#45;&gt;2176792582608 -->
+<g id="edge9" class="edge">
+<title>2176792583904-&gt;2176792582608</title>
+<path fill="none" stroke="black" d="M490.15,-206.42C429.12,-197.05 328.83,-179.41 244.97,-154 241.58,-152.97 238.11,-151.82 234.64,-150.59"/>
+<polygon fill="none" stroke="black" points="489.54,-209.87 499.95,-207.91 490.59,-202.95 489.54,-209.87"/>
+</g>
+<!-- 2176792586736 -->
+<g id="node6" class="node">
+<title>2176792586736</title>
+<polygon fill="aliceblue" stroke="black" points="256.3,-103.9 256.3,-153.5 391.65,-153.5 391.65,-103.9 256.3,-103.9"/>
+<text xml:space="preserve" text-anchor="middle" x="323.97" y="-136.9" font-family="Times,serif" font-size="14.00">TemperatureRule</text>
+<polyline fill="none" stroke="black" points="256.3,-128.7 391.65,-128.7"/>
+<text xml:space="preserve" text-anchor="start" x="264.3" y="-112.1" font-family="Times,serif" font-size="14.00">temperature: FLOAT</text>
+</g>
+<!-- 2176792583904&#45;&gt;2176792586736 -->
+<g id="edge3" class="edge">
+<title>2176792583904-&gt;2176792586736</title>
+<path fill="none" stroke="black" d="M490.6,-193.2C459.29,-181.27 420.03,-166.31 387.48,-153.9"/>
+<polygon fill="none" stroke="black" points="489.31,-196.45 499.9,-196.74 491.8,-189.91 489.31,-196.45"/>
+</g>
+<!-- 2176792584048 -->
+<g id="node7" class="node">
+<title>2176792584048</title>
+<polygon fill="aliceblue" stroke="black" points="413.78,-103.9 413.78,-153.5 514.17,-153.5 514.17,-103.9 413.78,-103.9"/>
+<text xml:space="preserve" text-anchor="middle" x="463.97" y="-136.9" font-family="Times,serif" font-size="14.00">TopPRule</text>
+<polyline fill="none" stroke="black" points="413.78,-128.7 514.17,-128.7"/>
+<text xml:space="preserve" text-anchor="start" x="421.78" y="-112.1" font-family="Times,serif" font-size="14.00">top_p: FLOAT</text>
+</g>
+<!-- 2176792583904&#45;&gt;2176792584048 -->
+<g id="edge4" class="edge">
+<title>2176792583904-&gt;2176792584048</title>
+<path fill="none" stroke="black" d="M514.88,-182.23C505.73,-172.79 495.88,-162.62 487.31,-153.78"/>
+<polygon fill="none" stroke="black" points="512.17,-184.45 521.64,-189.2 517.19,-179.58 512.17,-184.45"/>
+</g>
+<!-- 2176792584672 -->
+<g id="node8" class="node">
+<title>2176792584672</title>
+<polygon fill="aliceblue" stroke="black" points="535.79,-103.9 535.79,-153.5 720.15,-153.5 720.15,-103.9 535.79,-103.9"/>
+<text xml:space="preserve" text-anchor="middle" x="627.97" y="-136.9" font-family="Times,serif" font-size="14.00">MaxTokenRule</text>
+<polyline fill="none" stroke="black" points="535.79,-128.7 720.15,-128.7"/>
+<text xml:space="preserve" text-anchor="start" x="543.79" y="-112.1" font-family="Times,serif" font-size="14.00">max_completion_tokens: INT</text>
+</g>
+<!-- 2176792583904&#45;&gt;2176792584672 -->
+<g id="edge5" class="edge">
+<title>2176792583904-&gt;2176792584672</title>
+<path fill="none" stroke="black" d="M577.06,-182.23C586.21,-172.79 596.06,-162.62 604.63,-153.78"/>
+<polygon fill="none" stroke="black" points="574.75,-179.58 570.3,-189.2 579.78,-184.45 574.75,-179.58"/>
+</g>
+<!-- 2176792584384 -->
+<g id="node9" class="node">
+<title>2176792584384</title>
+<polygon fill="aliceblue" stroke="black" points="742.13,-103.9 742.13,-153.5 907.81,-153.5 907.81,-103.9 742.13,-103.9"/>
+<text xml:space="preserve" text-anchor="middle" x="824.97" y="-136.9" font-family="Times,serif" font-size="14.00">PresencePenaltyRule</text>
+<polyline fill="none" stroke="black" points="742.13,-128.7 907.81,-128.7"/>
+<text xml:space="preserve" text-anchor="start" x="750.13" y="-112.1" font-family="Times,serif" font-size="14.00">presence_penalty: FLOAT</text>
+</g>
+<!-- 2176792583904&#45;&gt;2176792584384 -->
+<g id="edge6" class="edge">
+<title>2176792583904-&gt;2176792584384</title>
+<path fill="none" stroke="black" d="M601.36,-197.5C642.41,-185.06 698.94,-167.91 744.9,-153.98"/>
+<polygon fill="none" stroke="black" points="600.49,-194.11 591.94,-200.36 602.52,-200.81 600.49,-194.11"/>
+</g>
+<!-- 2176792583808 -->
+<g id="node10" class="node">
+<title>2176792583808</title>
+<polygon fill="aliceblue" stroke="black" points="929.63,-103.9 929.63,-153.5 1102.31,-153.5 1102.31,-103.9 929.63,-103.9"/>
+<text xml:space="preserve" text-anchor="middle" x="1015.97" y="-136.9" font-family="Times,serif" font-size="14.00">FrequencyPenaltyRule</text>
+<polyline fill="none" stroke="black" points="929.63,-128.7 1102.31,-128.7"/>
+<text xml:space="preserve" text-anchor="start" x="937.63" y="-112.1" font-family="Times,serif" font-size="14.00">frequency_penalty: FLOAT</text>
+</g>
+<!-- 2176792583904&#45;&gt;2176792583808 -->
+<g id="edge7" class="edge">
+<title>2176792583904-&gt;2176792583808</title>
+<path fill="none" stroke="black" d="M601.62,-206.81C674.76,-196.63 807.05,-177.02 918.97,-154 922.37,-153.3 925.83,-152.56 929.33,-151.79"/>
+<polygon fill="none" stroke="black" points="601.33,-203.32 591.9,-208.16 602.29,-210.25 601.33,-203.32"/>
+</g>
+<!-- 2176792584576 -->
+<g id="node11" class="node">
+<title>2176792584576</title>
+<polygon fill="aliceblue" stroke="black" points="1123.96,-103.9 1123.96,-153.5 1291.99,-153.5 1291.99,-103.9 1123.96,-103.9"/>
+<text xml:space="preserve" text-anchor="middle" x="1207.97" y="-136.9" font-family="Times,serif" font-size="14.00">ReasoningEffortRule</text>
+<polyline fill="none" stroke="black" points="1123.96,-128.7 1291.99,-128.7"/>
+<text xml:space="preserve" text-anchor="start" x="1131.96" y="-112.1" font-family="Times,serif" font-size="14.00">reasoning_effort: EFFORT</text>
+</g>
+<!-- 2176792583904&#45;&gt;2176792584576 -->
+<g id="edge8" class="edge">
+<title>2176792583904-&gt;2176792584576</title>
+<path fill="none" stroke="black" d="M601.64,-211.06C703.67,-204.52 927.23,-187.45 1112.97,-154 1116.49,-153.37 1120.07,-152.67 1123.68,-151.93"/>
+<polygon fill="none" stroke="black" points="601.66,-207.55 591.9,-211.67 602.1,-214.54 601.66,-207.55"/>
+</g>
+<!-- 2176792584912 -->
+<g id="node5" class="node">
+<title>2176792584912</title>
+<polygon fill="aliceblue" stroke="black" points="128.39,-0.5 128.39,-66.9 243.55,-66.9 243.55,-0.5 128.39,-0.5"/>
+<text xml:space="preserve" text-anchor="middle" x="185.97" y="-50.3" font-family="Times,serif" font-size="14.00">MESSAGE</text>
+<polyline fill="none" stroke="black" points="128.39,-42.1 243.55,-42.1"/>
+<text xml:space="preserve" text-anchor="start" x="136.39" y="-25.5" font-family="Times,serif" font-size="14.00">role: ROLES</text>
+<text xml:space="preserve" text-anchor="start" x="136.39" y="-8.7" font-family="Times,serif" font-size="14.00">content: STRING</text>
+</g>
+<!-- 2176792582608&#45;&gt;2176792584912 -->
+<g id="edge10" class="edge">
+<title>2176792582608-&gt;2176792584912</title>
+<path fill="none" stroke="black" d="M185.97,-90.8C185.97,-86.8 185.97,-82.71 185.97,-78.63"/>
+<polygon fill="black" stroke="black" points="185.97,-90.85 189.97,-96.85 185.97,-102.85 181.97,-96.85 185.97,-90.85"/>
+<polygon fill="black" stroke="black" points="189.47,-78.84 185.97,-68.84 182.47,-78.84 189.47,-78.84"/>
+<text xml:space="preserve" text-anchor="middle" x="147.28" y="-71.53" font-family="Times,serif" font-size="14.00">messages 1..*</text>
+</g>
+<!-- match_rules -->
+<g id="node12" class="node">
+<title>match_rules</title>
+<polygon fill="aliceblue" stroke="none" points="827.94,-363 616,-363 616,-276.6 827.94,-276.6 827.94,-363"/>
+<polygon fill="none" stroke="black" points="627,-333.2 627,-356 693.68,-356 693.68,-333.2 627,-333.2"/>
+<text xml:space="preserve" text-anchor="start" x="631.95" y="-341.4" font-family="Times,serif" font-weight="bold" font-size="14.00">EFFORT</text>
+<polygon fill="none" stroke="black" points="695.68,-333.2 695.68,-356 816.94,-356 816.94,-333.2 695.68,-333.2"/>
+<text xml:space="preserve" text-anchor="start" x="707.62" y="-340.4" font-family="Times,serif" font-size="14.00">low|medium|high</text>
+<polygon fill="none" stroke="black" points="627,-308.4 627,-331.2 693.68,-331.2 693.68,-308.4 627,-308.4"/>
+<text xml:space="preserve" text-anchor="start" x="630" y="-316.6" font-family="Times,serif" font-weight="bold" font-size="14.00">MODELS</text>
+<polygon fill="none" stroke="black" points="695.68,-308.4 695.68,-331.2 816.94,-331.2 816.94,-308.4 695.68,-308.4"/>
+<text xml:space="preserve" text-anchor="start" x="704.75" y="-315.6" font-family="Times,serif" font-size="14.00">gpt-4o|gpt-4-turbo</text>
+<polygon fill="none" stroke="black" points="627,-283.6 627,-306.4 693.68,-306.4 693.68,-283.6 627,-283.6"/>
+<text xml:space="preserve" text-anchor="start" x="636.61" y="-291.8" font-family="Times,serif" font-weight="bold" font-size="14.00">ROLES</text>
+<polygon fill="none" stroke="black" points="695.68,-283.6 695.68,-306.4 816.94,-306.4 816.94,-283.6 695.68,-283.6"/>
+<text xml:space="preserve" text-anchor="start" x="698.68" y="-290.8" font-family="Times,serif" font-size="14.00">system|user|assistant</text>
+<polygon fill="none" stroke="black" points="624,-280.6 624,-359 819.94,-359 819.94,-280.6 624,-280.6"/>
+</g>
+</g>
+</svg>

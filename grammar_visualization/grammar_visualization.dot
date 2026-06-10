@@ -1,0 +1,61 @@
+
+    digraph textX {
+    fontname = "Bitstream Vera Sans"
+    fontsize = 8
+    node[
+        shape=record,
+        style=filled,
+        fillcolor=aliceblue
+    ]
+    nodesep = 0.3
+    edge[dir=black,arrowtail=empty]
+
+
+2176792283760[ label="{PromptConfig|}"]
+
+2176792583904[ label="{*ConfigRule|}"]
+
+2176792583088[ label="{ModelRule|model: MODELS\l}"]
+
+2176792582608[ label="{MessagesRule|}"]
+
+2176792584912[ label="{MESSAGE|role: ROLES\lcontent: STRING\l}"]
+
+2176792586736[ label="{TemperatureRule|temperature: FLOAT\l}"]
+
+2176792584048[ label="{TopPRule|top_p: FLOAT\l}"]
+
+2176792584672[ label="{MaxTokenRule|max_completion_tokens: INT\l}"]
+
+2176792584384[ label="{PresencePenaltyRule|presence_penalty: FLOAT\l}"]
+
+2176792583808[ label="{FrequencyPenaltyRule|frequency_penalty: FLOAT\l}"]
+
+2176792584576[ label="{ReasoningEffortRule|reasoning_effort: EFFORT\l}"]
+
+
+
+2176792283760 -> 2176792583904[arrowtail=diamond, dir=both, headlabel="rules 0..*"]
+2176792583904 -> 2176792583088 [dir=back]
+2176792583904 -> 2176792586736 [dir=back]
+2176792583904 -> 2176792584048 [dir=back]
+2176792583904 -> 2176792584672 [dir=back]
+2176792583904 -> 2176792584384 [dir=back]
+2176792583904 -> 2176792583808 [dir=back]
+2176792583904 -> 2176792584576 [dir=back]
+2176792583904 -> 2176792582608 [dir=back]
+2176792582608 -> 2176792584912[arrowtail=diamond, dir=both, headlabel="messages 1..*"]
+match_rules [ shape=plaintext, label=< <table>
+	<tr>
+		<td><b>EFFORT</b></td><td>low|medium|high</td>
+	</tr>
+	<tr>
+		<td><b>MODELS</b></td><td>gpt-4o|gpt-4-turbo</td>
+	</tr>
+	<tr>
+		<td><b>ROLES</b></td><td>system|user|assistant</td>
+	</tr>
+</table> >]
+
+
+}

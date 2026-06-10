@@ -1,0 +1,25 @@
+{
+    "model": "gpt-4o",
+    "temperature": 0.6,
+    "max_completion_tokens": 300,
+    "frequency_penalty": 0.5,
+    "reasoning_effort": "low",
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a child"
+        },
+        {
+            "role": "user",
+            "content": "What is your favourite animal?"
+        },
+        {
+            "role": "assistant",
+            "content": "My favourite animal is cat"
+        },
+        {
+            "role": "user",
+            "content": "And why?"
+        }
+    ]
+}
